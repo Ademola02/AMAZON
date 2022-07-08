@@ -1,0 +1,873 @@
+@media only screen and  (max-width:480px){
+    body{
+        font-size: 7px !important;
+        width: 100% !important;
+        min-height: 100%;
+        margin: 0px !important;
+        padding: 0px !important;
+        font-family: "Amazon Ember", Arial, sans-serif !important;
+    }
+    .pool{
+        width: 278% !important;
+        height: 75px !important;
+       display: flex !important; 
+        padding: 0px !important;
+        margin: 0px !important;
+       align-items: center !important;
+    }
+    .navleft{
+        width: 22% !important;
+        display: flex !important;
+        align-items: center !important;
+        /* margin: 2px !important; */
+    }
+    
+    .loc{
+        font-size:15px !important;
+        font-weight: bolder !important;
+    }
+    .nav-center{
+          width: 45% !important;
+          display: flex !important;
+          align-items: center !important;
+    }
+    .navright{
+       width: 30% !important;
+       display: flex !important;
+       align-items: center !important;
+    }
+    .mage span{
+        display: none !important;
+    }
+    .user{
+       font-size: 8px !important;
+       /* font-weight: bolder !important;    */
+   }
+   .user2{
+       font-size: 10px !important;
+   }
+   .ret{  
+       font-size:6px !important;
+       font-weight: bold !important;
+   }
+   .ret1{
+       font-size: 11px !important;
+       
+   }
+   .secnav{
+    width: 278% !important;
+    height: 50px !important;
+   display: flex !important;
+   /* justify-content: center !important; */
+   font-size: 17px !important;
+    padding: 0px !important;
+    align-items: center !important;
+}
+.secnav ul li{
+    color: rgb(204, 204, 204) !important;
+    font-size: 14px !important;
+    }
+    .bar .fa-bars{
+        font-size: 20px;
+     }
+     .bar span{
+         height: 12px !important;
+         font-size: 19px !important;  
+     }
+.dg{
+    display: none !important;  
+}
+.reg1{
+    display: none !important;
+}
+.pulse{
+    display: flex !important;
+    align-items: center !important;
+    border: none !important;
+    width:80px;
+    font-size: 13px;
+    margin-left: 720px !important;
+    margin-top: 10px !important;
+    height: 40px;
+    justify-content: center !important;
+}
+.gym{
+    display: flex;
+    border: none !important;
+    background-color: transparent;
+    outline: none !important;
+    position: relative; 
+}
+.gym:focus .forshy{
+    display:inherit;
+   
+}
+.forshy{
+    width: 300px;
+    margin-top: 400px;
+    font-size: 10px;
+    height: 272px;
+    border: 1px solid rgb(207, 219, 227);
+    display: none ;
+}
+.fors{
+    width:170px;
+    height: 272px;
+    border:1px solid rgb(207, 219, 227) !important;
+    Font-size: 14px !important;
+    Font-weight: 400 !important;
+    font-family: Amazon ember , Arial, sans-serif !important;
+    Line-height: 20px !important;
+    color: rgb(27, 29, 29) !important;
+}
+.ku1{
+    width: 170px !important;
+    height: 45px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.ku1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(2, 57, 83) !important;  
+}
+.ku1 span{
+    width: 110px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(15, 17, 17) !important;
+} 
+.ku1 span:hover{
+    text-decoration: none !important;
+}
+.sa1{
+    width: 170px !important;
+    height: 45px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.sa1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(6, 79, 112) !important;  
+}
+.sa1 span{
+    width: 112px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(15, 17, 17) !important;
+} 
+.sa1 span:hover{
+    text-decoration: none !important;
+}
+.by1{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 170px !important;
+    height: 45px !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.by1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(6, 79, 112) !important;  
+}
+.by1 span{
+    width: 112px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(15, 17, 17) !important;
+} 
+.by1 span:hover{
+    text-decoration: none !important;
+}
+.ft1{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 170px !important;
+    height: 45px !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.ft1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(6, 79, 112) !important;  
+}
+.ft1 span{
+    width: 112px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(15, 17, 17) !important;
+} 
+.ft1 span:hover{
+    text-decoration: none !important;
+}
+.us1{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 170px !important;
+    height: 45px !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.us1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(6, 79, 112) !important;  
+}
+.us1 span{
+    width: 112px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(27, 29, 29) !important;
+} 
+.us1 span:hover{
+    text-decoration: none !important;
+}
+.el1{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 170px !important;
+    height: 45px !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.el1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(6, 79, 112) !important;  
+}
+.el1 span{
+    width: 28px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(27, 29, 29) !important;
+} 
+.el1 span:hover{
+    text-decoration: none  !important;
+}
+.loms{
+    width: 278% !important;
+    height: 145px !important;
+    margin-bottom: 5px !important;
+}
+.hel{
+    font-size: 15px !important;
+    height: 32px !important;
+}
+ .mog{
+    width: 85% !important;
+    height: 72px !important;
+}
+.ran{
+font-size:17px !important;
+width: 292px !important;
+height: 25px !important;
+}
+.faz{
+    width: 300px !important;
+    height: 37px !important;
+    text-align: left !important;
+}
+.dem{
+    width: 300px !important;
+    height: 37px !important;
+    border-radius: 5px !important;
+    border: 1px solid rgb(197, 199, 202)!important;
+    margin-left: 10px !important;
+}
+.demzy{
+     text-align: left !important;
+    width:260px !important;
+    font-size: 10px !important;
+    border: none !important;
+    height: 30px !important;
+}   
+.old{
+    background-color:rgb(216, 216, 216) !important;
+    width: 145px !important;
+    margin-left: 15px !important;
+    border:1px solid rgb(216, 216, 216) !important;
+    border-radius:20px !important;
+    height: 37px !important;
+}
+.dday{
+    width: 260% !important;
+    height: 70px !important;
+    text-align: center !important;
+    margin-top: 20px !important;
+    font: size 17px !important;
+}
+.axe{
+    width: 240% !important;
+    height: 270px !important;
+    margin-left: 50px;
+    padding: 10px !important;
+}
+.axe a{
+    width: 36% !important;
+    height: 220px !important;
+    margin-left: 25px !important;   
+}
+.axe p{
+     font-size: 19.9px !important;
+     font-weight: 700 !important;
+     margin-bottom: 2px !important;
+}
+.axe div{
+    width: 100% !important;
+    height: 25% !important;
+    font-size: 17px !important;
+}
+/* FOOTER */
+   .footer{
+    width: 278% !important;
+    height: 1093px!important;
+    margin-top: 10px !important;
+}
+.stan{
+    width: 100%;
+    height: 42px !important;
+    font-size:17px;
+}
+         /* COT BEGIN */
+.cot{
+    width: 100%;
+    height: 400px;
+}
+ .zee{
+    width: 22% !important;
+    height: 320px !important; 
+    font: size 16px !important;
+}
+.zee a{
+    font-size:15.5px !important;
+}
+.empty{
+    width: 7% !important;
+    height: 300px !important;
+}
+               /* COT END */
+           /* ZON */
+ .zon{
+    margin-top: 10px !important;
+    width: 72% !important;
+    height: 70px !important;
+}
+.zon span{
+    width: 15% !important;
+    height: 70px !important;
+     margin-right: 88px !important;
+}
+.zon div{
+    background-image: url(./image/logo.png);
+    width: 130px !important;
+    height: 36px !important;
+}
+.zon a{
+    Font-size: 15px;
+    margin: 8px !important;
+    width: 175px !important;
+    height: 35px !important;
+    
+}
+.zon i{
+    margin: 15px !important;
+    font-size: 20px !important;   
+ }
+.zon .lag{
+    background-image: url(./image/flag.png);
+    background-size: cover !important; 
+    width:23px !important;
+    height: 15px !important;
+    margin: 8px !important;
+} 
+          /* ZON END */
+          /* END */
+ .end{
+    width: 100% !important;
+    height: 538px !important;
+    font-size:15px;
+    background-color: rgb(19, 26, 34) !important; 
+}   
+                       /*  TABLLE */
+ .end table{
+    width: 97% !important;
+    margin-left: 4px !important;
+    height: 460px !important;
+    background-color: rgb(19, 26, 34) !important; 
+}  
+                           /* first row  */
+  .racer{
+     display: block !important;
+     margin: 2px !important;
+ } 
+ .racer a{
+     font-size:14px !important;
+     width: 150px !important;
+ }   
+ .racer span{  
+    width: 130px !important;
+    height: 33px !important;
+    font-size:13px !important;
+    color: rgb(153, 153, 153) !important;
+ }  
+ .spacer{
+     width: 35px !important;
+     height: 70px !important;
+ }                   
+ .sec{
+    width: 75px !important;
+    height: 15px !important;
+ } 
+            /* TABLE END */
+ .last{
+    width: 100% !important;
+    height: 75px !important;
+}            
+.last a{
+   margin-right: 5px !important;
+   font-size:12px !important;
+}
+.last span{
+    font-size:12px !important;
+ }
+}
+@media only screen and (max-width:768px) and (min-width:481px)  {
+    body{
+        font-size: 7px !important;
+        width: 100% !important;
+        height: 100vh !important;
+        margin: 0px !important;
+    
+        padding: 0px !important;
+        font-family: "Amazon Ember", Arial, sans-serif !important;
+    }
+    .pool{
+        width: 152.5%!important;
+        height: 69px !important;
+       display: block !important; 
+       margin: 0px !important;
+        padding: 0px !important;
+    }
+    .navleft{
+        width: 25% !important;
+        display: flex !important;
+        align-items: center !important;
+       
+    }
+    .loc{
+        font-size:14px !important;
+    }
+    .nav-center{
+          width: 45% !important;
+          display: flex !important; 
+    }
+    .navright{
+       width: 26% !important;
+       display: flex !important;
+
+    }
+    .mage span{
+        display: none !important;
+    }
+    .user{
+       font-size: 7px !important;
+
+   }
+   .user2{
+       font-size: 10px !important;
+   }
+   .ret{  
+       font-size:7px !important;
+   }
+   .ret1{
+       font-size:10px !important;
+   }
+    .secnav{
+    width: 152.5% !important;
+    height: 45px !important;
+   display: flex !important; 
+    font-size: 17px !important;
+    padding: 0px !important;
+    align-items: center !important;
+}
+.secnav ul li{
+    color: rgb(204, 204, 204) !important;
+    font-size: 13px !important;
+    } 
+     .bar .fa-bars{
+        font-size: 16px;
+     }
+      .bar span{
+         height: 12px !important;
+         font-size: 16px !important; 
+     }
+.dg{
+    display: none !important;  
+}
+.loms{
+    width: 147% !important;
+    height: 145px !important;
+    margin-bottom: 5px !important;
+}
+.reg1{
+    display: none !important;
+}
+.pulse{
+    display: flex !important;
+    align-items: center !important;
+    border: none !important;
+    width:80px;
+    font-size: 13px;
+    margin-left: 530px !important;
+    margin-top: 10px !important;
+    height: 40px;
+    justify-content: center !important;
+}
+.gym{
+    display: flex;
+    border: none !important;
+    background-color: transparent;
+    outline: none !important;
+    position: relative; 
+}
+.gym:focus .forshy{
+    display:inherit;
+   
+}
+.forshy{
+    width: 300px;
+    margin-top: 400px;
+    font-size: 10px;
+    height: 272px;
+    border: 1px solid rgb(207, 219, 227);
+    display: none ;
+}
+.fors{
+    width:170px;
+    height: 272px;
+    border:1px solid rgb(207, 219, 227) !important;
+    Font-size: 14px !important;
+    Font-weight: 400 !important;
+    font-family: Amazon ember , Arial, sans-serif !important;
+    Line-height: 20px !important;
+    color: rgb(27, 29, 29) !important;
+}
+.ku1{
+    width: 170px !important;
+    height: 45px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.ku1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(2, 57, 83) !important;  
+}
+.ku1 span{
+    width: 110px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(15, 17, 17) !important;
+} 
+.ku1 span:hover{
+    text-decoration: none !important;
+}
+.sa1{
+    width: 170px !important;
+    height: 45px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.sa1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(6, 79, 112) !important;  
+}
+.sa1 span{
+    width: 112px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(15, 17, 17) !important;
+} 
+.sa1 span:hover{
+    text-decoration: none !important;
+}
+.by1{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 170px !important;
+    height: 45px !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.by1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(6, 79, 112) !important;  
+}
+.by1 span{
+    width: 112px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(15, 17, 17) !important;
+} 
+.by1 span:hover{
+    text-decoration: none !important;
+}
+.ft1{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 170px !important;
+    height: 45px !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.ft1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(6, 79, 112) !important;  
+}
+.ft1 span{
+    width: 112px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(15, 17, 17) !important;
+} 
+.ft1 span:hover{
+    text-decoration: none !important;
+}
+.us1{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 170px !important;
+    height: 45px !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.us1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(6, 79, 112) !important;  
+}
+.us1 span{
+    width: 112px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(27, 29, 29) !important;
+} 
+.us1 span:hover{
+    text-decoration: none !important;
+}
+.el1{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 170px !important;
+    height: 45px !important;
+    text-decoration: none solid rgb(6, 79, 112) !important;
+}
+.el1:hover{
+   border: none !important;
+   border-bottom: 2px solid rgb(6, 79, 112) !important;  
+}
+.el1 span{
+    width: 28px !important;
+    display: flex !important;
+    height: 20px !important;
+    color: rgb(27, 29, 29) !important;
+} 
+.el1 span:hover{
+    text-decoration: none  !important;
+}
+.hel{
+    font-size: 16px !important;
+    height: 32px !important;
+}
+ .mog{
+    width: 85% !important;
+    height: 72px !important;
+}
+.ran{
+font-size:15px !important;
+width: 252px !important;
+height: 25px !important;
+}
+.faz{
+    width: 240px !important;
+    font-size: 10px !important;
+    height: 33px !important;
+    text-align: left !important;
+}
+.dem{
+    width: 240px !important;
+    height: 33px !important;
+    border-radius: 5px !important;
+    border: 1px solid rgb(197, 199, 202)!important;
+    margin-left: 10px !important;
+
+}
+.demzy{
+     text-align: left !important;
+    width:200px !important;
+    font-size: 10px !important;
+    border: none !important;
+    height: 20px !important;
+}
+.old{
+    background-color:rgb(216, 216, 216) !important;
+    width: 120px!important;
+    margin-left: 10px !important;
+    font-size: 11px !important;
+    border:1px solid rgb(216, 216, 216) !important;
+    border-radius:20px !important;
+    height:30px !important;
+}
+.dday{
+    width: 140% !important;
+    height: 70px !important;
+    font-size:16px !important;
+}
+.axe{
+    width:140% !important;
+    height: 250px !important;
+    margin-left:20px !important;
+    /* padding: 10px !important; */
+}
+.axe a{
+    width: 33% !important;
+    height: 165px !important;
+    margin-left: 16px !important;
+    
+}
+.axe p{
+     font-size: 18.9px !important;
+     font-weight: 700 !important;
+     /* margin-bottom: 2px !important; */
+}
+.axe div{
+    width: 100% !important;
+    height: 25% !important;
+    font-size: 13px !important;
+} 
+   /* FOOTER */
+   .footer{
+    width: 152.5%  !important;
+    height: 970px!important;
+    margin-top: 10px !important;
+}
+.stan{
+    width: 100%;
+    height: 42px !important;
+    font-size:12px;
+
+}
+         /* COT BEGIN */
+.cot{
+    width: 100%;
+    height: 300px;
+}
+ .zee{
+    width: 18% !important;
+    height: 230px !important; 
+    font-size:12px !important;
+}
+.zee ul{
+    padding-top: 2px !important;
+    padding-left: 0px !important; 
+}
+.zee li{
+    margin-bottom: 2px !important;
+}
+.zee a{
+    font-size:11px !important;
+}
+.empty{
+    width: 6% !important;
+    height: 300px !important;  
+}
+               /* COT END */
+           /* ZON */
+ .zon{
+    margin-top: 10px !important;
+    width: 84% !important;
+    margin-left: 60px !important;
+    height: 65px !important;
+}
+.zon span{
+    width: 16% !important;
+    height: 65px !important;
+     margin-right: 80px !important;
+}
+.zon div{
+    background-image: url(./image/logo.png);
+    width: 125px !important;
+    height: 34px !important;
+}
+.zon a{
+    Font-size: 10px;
+    margin: 8px !important;
+    width: 140px !important;
+    height: 25px !important;
+    
+}
+.zon i{
+    margin: 15px !important;
+    font-size: 15px !important;   
+ }
+.zon .lag{
+    background-image: url(./image/flag.png);
+    background-size: cover !important; 
+    width:23px !important;
+    height: 15px !important;
+    margin: 8px !important;
+} 
+          /* ZON END */
+          /* END */
+ .end{
+    width: 100% !important;
+    height: 535px !important;
+    font-size:15px;
+    background-color: rgb(19, 26, 34) !important; 
+    
+}   
+                       /*  TABLLE */
+ .end table{
+    width: 90% !important;
+    height: 460px !important;
+     margin-left: 3px !important;
+    background-color: rgb(19, 26, 34) !important; 
+}  
+                           /* first row  */
+  .racer{
+     display: block !important;
+ } 
+ .racer a{
+     font-size:12.7px !important;
+     width: 130px !important;
+     margin-left: 10px !important;
+     /* border: 1px solid red; */
+ }   
+ .racer span{  
+    width: 75px !important;
+    height: 30px !important;
+    font-size:7px !important;
+    color: rgb(153, 153, 153) !important;
+ }                 
+ .sec{
+    width: 50px !important; 
+    height: 15px !important;
+ } 
+            /* TABLE END */
+ .last{
+    width: 97% !important;
+    height: 75px !important;
+}            
+.last a{
+   margin-right: 5px !important;
+   font-size:10px !important;
+}
+.last span{
+   font-size:10px !important;
+} 
+       }

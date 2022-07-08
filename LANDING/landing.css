@@ -1,0 +1,678 @@
+@font-face {
+    font-family: Amazon ember;
+    src: url(../amazon-ember-cufonfonts/Amazon\ Ember.ttf);
+}
+body{
+    background-color: rgb(255, 255, 255) !important;
+    box-sizing: border-box;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+ .logo:hover{
+    border: 1px solid rgb(255, 255, 255) !important;
+    border-radius: 3px !important;
+}  
+ .loc:hover{
+    border: 1px solid rgb(255, 255, 255) !important;
+    border-radius: 3px !important;
+}  
+.dt:hover{
+    border: 1px solid rgb(218, 218, 218) !important;
+}
+.ser:hover{
+    border: 1px solid rgb(243, 168, 71) !important;
+}
+#lang:hover{
+    border: 1px solid rgb(255, 255, 255) !important;
+}
+.chalang{
+    position: relative;
+    width: 210px !important;
+    
+    /* justify-content: flex-start; */
+    font-size: small !important;
+    height: 451px !important;    
+}
+.ner{
+    position: absolute !important;
+    display: block;
+    padding-left: 5px !important;
+    width: 210px !important;
+    height: 435px !important;
+    /* border: 1px solid; */
+}
+.ner span{
+    height: 27px; 
+    color: rgb(68, 68, 68) !important;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 13px;
+    margin: 10px !important;
+}
+.ner a{
+    color: rgb(0, 113, 133) !important;
+}
+.ner a:hover{
+ color: rgb(232, 113, 33) !important;
+}
+.ran{
+    display: flex !important;
+}
+.ran i{
+    color: rgb(232, 113, 33);
+    font-size: 12px;
+    border: 1px solid rgb(254, 254, 254) !important;
+}
+.ner .lank{
+    width: 190px !important;
+    border: none !important;
+    height: 1px !important;
+    border-top: 1px solid rgb(238, 238, 238) !important;
+    opacity: 0.5;
+    padding-left: 20px !important;
+    margin-bottom: 3px !important;
+}
+.ner .juve{
+    height: 25px; 
+    /* color: rgb(68, 68, 68) !important; */
+    font-family: "Amazon Ember", Arial, sans-serif;
+    /* font-size: 13px; */
+    width: 170px;
+    margin-left: 11px !important;
+    display: flex !important;
+    margin-bottom: 2px !important;
+    align-items: center !important;
+}
+.juve i{
+    background-color: #fff !important;
+    color: rgb(232, 113, 33);
+    /* color: rgb(68, 68, 68) !important; */
+    font-size: 12px;
+}
+.juve span:hover{
+    color: rgb(239, 164, 99) !important;
+}
+.juve:hover{
+    color: rgb(239, 164, 99) !important;
+}
+.usd{
+    width: 170px;
+    height: 29px;
+     color: rgb(68, 68, 68) !important;
+     font-family: "Amazon Ember", Arial, sans-serif;
+     font-size: 13px;
+    display: flex;
+    /* border: 1px solid !important; */
+}
+.usd a{
+    text-align: right !important;
+    color: rgb(0, 113, 133) !important;
+    margin-left: 15px !important;
+}
+.usd a:hover{
+    color: rgb(232, 113, 33) !important;
+}
+.taj{
+    width: 170px;
+    height: 33.5px !important;
+    display: flex;
+    text-align: left;
+     color: rgb(68, 68, 68) !important;
+     font-family: "Amazon Ember", Arial, sans-serif;
+     font-size: 12px;
+    /* border: 1px solid !important; */
+}
+.taj i{
+    background-image: url(../IMAGE/fla.png);
+    background-size: cover;
+    width: 17px;
+    height: 13px;
+    margin: 2px;
+}
+.gon{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    color: rgb(0, 102, 192) !important;
+    height: 13px !important;
+    width: 150px;
+    margin-left: 23px !important;
+}
+.gon a{
+    color: rgb(0, 102, 192) !important; 
+}
+.gon a:hover{
+  color: rgb(0, 102, 192) !important;
+  text-decoration: underline solid rgb(239, 164, 99) !important;
+}
+
+.user{
+    font-size: 11px!important;
+    font-weight: 200 !important; 
+    text-align: left !important;
+    color: rgb(255, 255, 255) !important;  
+}
+.user2{
+    font-size: 15px!important;
+    font-weight: 300 !important;
+    text-align: center !important;
+}
+.user:hover{
+    border: 1px solid rgb(255, 255, 255) !important;
+}
+.log{
+    width: 100% !important;
+    height: 400px !important;
+    display: flex;
+    margin-left: -45px !important;
+    background-color: rgb(255, 255, 255) !important;
+
+    font-family:Amazon ember ;
+}
+.log1{
+    width: 96% !important;
+    margin: 5px !important;
+    /* padding-left: 40px !important; */
+    height: 100% !important;
+}
+.log2{
+    margin-left: 120px !important;
+    text-align: center !important;
+    width: 45% !important;
+   
+    height: 60px !important;
+}
+.log3{
+    width: 55% !important;
+    height: 40px !important;
+    background-color: rgb(240, 193, 75) !important;
+}
+.log3:hover{
+    background-color:rgb(216, 175, 71)  !important;
+}
+.log2 a:hover{
+ color:  rgb(245, 205, 167) !important;
+}
+.tab{
+    width: 100% !important;
+    margin-left: 7px !important;
+    height: 70% !important;
+}
+.tab1{
+    display: block !important;
+    width: 60% !important;
+    height: 290px !important;
+    border: none !important;
+    border-right:2px solid rgb(232, 232, 232) !important;
+}
+.tab1 a{
+    font-size: small !important;
+    color:  rgb(54, 71, 75) !important;
+}
+.tab1 a:hover{
+    color: rgb(241, 184, 128) !important;
+}
+.tab2{
+    display: block !important;
+    width: 70% !important;
+}
+.tab2 a{
+    font-size: small !important;
+    color:  rgb(54, 71, 75) !important;
+}
+.tab2 a:hover{
+    color: rgb(241, 184, 128) !important;
+}
+.ret{  
+    font-size:11px !important;
+    text-align: left !important;
+}
+.ret1{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+.ret:hover{
+    border: 1px solid rgb(255, 255, 255) !important;  
+}
+.mage{
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+}
+.mage span{
+    color: rgb(218, 219, 220) !important;
+    font-size: 20px !important;
+}
+.mage:hover{
+    border: 1px solid rgb(255, 255, 255) !important;
+    
+}
+/* SECOND NAVBAR */
+.secnav{
+    height: 50px !important;
+    display: flex !important;
+    /* justify-content: center !important; */
+    align-items: center !important;
+    font-size: 4px !important;
+    
+    margin-bottom: 1px;
+}
+.secnav ul{
+
+    width: 70% !important;
+    height: 50px !important;
+    display: flex;
+    padding: 0px !important;
+    top: 0px !important; 
+    margin: 0px !important;
+    align-items: center;
+    margin: 2px !important;
+    margin-left: 4px !important;
+    text-align: center;
+}
+.secnav ul li{
+color: rgb(204, 204, 204) !important;
+font-size: 14px !important;
+}
+.secnav li:hover{
+    border: 1px solid rgb(255, 255, 255) !important;   
+}
+.bar{
+    display: flex !important;  
+    justify-content: center !important;
+    align-items: center !important;
+    width: 55px !important;
+    height: 35px !important;
+    margin-right: 4px!important;
+    padding: 0px !important;
+    
+    text-decoration: none !important; 
+}
+.bar .fa-bars{
+   font-size: 20px;
+   /* font-style: italic;
+   text-align: start; */
+   color: rgb(255, 255, 255);
+   font-weight: 400;
+}
+.bar span{
+    height: 12px !important;
+    font-size: 14px !important;
+    font-weight: 700;
+    color: rgb(255, 255, 255) !important;
+    margin-left: 4px !important;
+    width: 18px !important;
+}
+.bar:hover{
+    border: 1px solid rgb(255, 255, 255) !important; 
+    /* width: 59px !important;
+    height: 29px !important; */
+}
+ .td{
+    color: rgb(204, 204, 204) !important; 
+}
+
+.cs{
+    color: rgb(204, 204, 204) !important;
+}
+.re{
+    color: rgb(204, 204, 204) !important;
+}
+
+.gc{
+    color: rgb(204, 204, 204) !important;
+}
+.se{
+    color: rgb(204, 204, 204) !important;
+}
+.dg{
+    width: 170px !important;
+    
+    display: flex !important;  
+    justify-content: center !important;
+    align-items: center !important;
+    height: 27px !important;
+    color: rgb(204, 204, 204) !important;
+    margin-left: 150px !important;
+    text-decoration: none !important; 
+    font-size: 14px !important;
+}
+.dg:hover{
+    border: 1px solid rgb(255, 255, 255) !important;
+}
+     /* CONTENT */
+.gin{
+    width: 100% !important;
+    height: 251px !important;
+    display: block;
+    margin: 0px !important;
+    padding: 20px !important;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+    background-color: rgb(255, 255, 255) !important;
+    /* border: 1px solid !important; */
+} 
+.cou{
+    width: 100% !important;
+    height: 90px !important;
+     display: flex;
+    align-items: center;
+    margin-bottom: 12px !important;
+}    
+.cou h1{
+    font-size: 20.8px;
+    color:rgb(228, 121, 17) ;
+    font-weight:400;
+    text-align: start; 
+}
+.can{
+    width: 100% !important;
+    height: 115px !important;
+    /* border: 1px solid red; */
+    display: flex !important;
+   
+}
+.comb {
+    width: 75% !important;
+    height: 110px !important;
+    display: block !important;
+    border: none;
+     margin: 0px !important;
+    padding: 0px !important;
+    border-right: 2px solid rgb(242, 242, 242) !important;
+    border-bottom: 2px solid rgb(242, 242, 242) !important;
+}
+.comb h2{
+    width: 70% !important;
+    height: 35px !important;
+    display: flex !important;
+    /* justify-content: center !important; */
+    align-items: center !important;
+    background-color: rgb(246, 246, 246)!important;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 5px !important;
+    font-size: 12px !important;
+    text-align: start !important;
+    color: rgb(51, 51, 51);
+    font-weight: 700 !important;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+}
+.comb .one{
+    width: 30px !important;
+    height: 31px !important;
+    font-size: 20px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 4px 0px 0px 4px;
+    font-weight: 500 !important;
+    margin-right: 4px !important;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(55, 65, 74) !important;
+}
+.comb .sue{
+    width: 70% !important;
+    height: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* border: 1px solid !important; */
+    /* font-size: 12px !important; */
+    /* text-align: start !important; */
+    /* color: rgb(51, 51, 51); */
+    background-color: rgb(255, 255, 255) !important;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+}
+.sue1{
+    width: 100% !important;
+    height: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    /* border: 1px solid rgb(201, 46, 19) !important; */
+}
+.fa-caret-right{
+    color: rgb(248, 199, 109);
+    font-size: 20px !important;  
+}
+.elect{
+    width: 240px;
+    height: 20px;
+    color:rgb(51, 51, 51);
+    text-align: start;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+    font-size: 12px;
+    margin-left: 2px;
+}
+.mady{
+    width: 375px;
+    height: 20px;
+    position: relative;
+}
+.mady .candy{
+    position: absolute;
+    width: 361px !important;
+    margin-top: 1px ;
+    height: 17px !important;
+    border: 1px solid rgb(165, 165, 165) !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+    color: rgb(15, 17, 17) !important;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+    text-align: start !important;
+    /* rgb(166, 199, 255) */
+}
+  /* FOOTER */
+  .footer{
+    width: 100% !important;
+    height: 1093px !important;
+    background-color: rgb(35, 47, 62) !important;
+    display: block !important;
+    /* justify-content: center !important; */
+    /* align-items: center !important; */
+}
+.stan{
+    width: 100%;
+    height: 42px !important;
+    border-top: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+    font-size:13px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(73, 85, 100) !important;
+}
+.stan{
+    background-color: rgb(72, 87, 105) !important;
+}
+         /* COT BEGIN */
+.cot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    border: none !important;
+}
+.zee{
+    width: 16% !important;
+    display: block !important;
+    height: 320px !important;
+    padding-left: 7px !important;
+    color: rgb(255, 255, 255) !important;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+    font-size:16px !important;
+    font-weight: 700 !important;
+    line-height: 16.8px;
+    text-align: left !important;
+    
+}
+.zee ul{
+    list-style-type: none !important;
+    padding-top: 7px !important;
+    padding-left: 0 !important; 
+    text-align: left !important;
+}
+.zee li{
+    margin-bottom: 10px !important;
+}
+.zee a{
+    color: rgb(255, 255, 255) !important;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+    font-size:14px !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+}
+.empty{
+    width: 5% !important;
+    height: 300px !important;
+}
+               /* COT END */
+.rut{
+    width: 100%;
+    border: none !important;
+    border-top:1px solid rgb(232, 232, 232) !important;
+    opacity: 0.4 !important;
+}
+           /* ZON */
+.zon{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 10px !important;
+    margin-left: 170px !important;
+    width: 72%;
+    height: 70px;
+    margin-bottom: 7px !important;
+}
+.zon span{
+    width: 12% !important;
+    height: 70px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+     margin-right: 100px !important;
+}
+.zon div{
+    background-image: url(./image/logo.png);
+    width: 120px;
+    background-size: cover !important;
+    height: 39px !important;
+}
+.zon a{
+    display: flex !important;
+    /* justify-content: center !important; */
+    align-items: center !important;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    Font-size: 13px;
+    Font-weight: 400;
+    color: rgb(204, 204, 204);
+    margin: 6px !important;
+    width: 150px;
+    height: 35px;
+    border:1px solid rgb(141, 144, 150) !important;
+    border-radius: 3px !important;
+}
+.zon i{
+    margin: 4px !important;
+    font-size: 16px;
+}
+.zon strong{
+    margin: 6px !important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: lighter !important;
+}
+.zon .lag{
+    background-image: url(./image/flag.png);
+    background-size: cover !important;
+    width:20px !important;
+    height: 15px !important;
+    margin: 7px !important;
+}
+          /* ZON END */
+          /* END */
+.end{
+    width: 100%;
+    height: 538px;
+    display: block;    
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+    font-size:13px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(19, 26, 34) !important; 
+    
+}   
+                       /*  TABLLE */
+.end table{
+    width: 1000px;
+    height: 460px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:200px !important;
+    /* margin-bottom: -14px !important; */
+    /* border: 1px solid blue !important; */
+} 
+                           /* first row  */
+ .racer{
+     display: block !important;
+     /* border: 1px solid red !important; */
+     
+
+ } 
+ .racer a{
+     font-family: "Amazon Ember", Arial, sans-serif !important;
+     font-size:11px !important;
+     display: block !important;
+    margin: 0px !important;
+    padding: 0px !important;
+     font-weight: 400;
+     color: rgb(221, 221, 221) !important;
+
+ }   
+ .racer span{
+    width: 90px;
+    height: 35px;
+    display: block !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size:9px !important;
+    letter-spacing: normal !important;
+    font-weight: 400;
+    text-align:left !important;
+    color: rgb(153, 153, 153) !important;
+ }                      
+ /* .spacer{
+     width: 20px !important;
+     height: 45px !important;
+ } */
+ .sec{
+    width: 75px;
+    height: 15px;
+ }
+            /* TABLE END */
+.last{
+    width: 100%;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    height: 75px !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin: 0px !important;
+    align-items: center !important;
+    /* border: 1px solid white; */
+}            
+.last a{
+   margin-right: 5px !important;
+   font-weight: 400;
+   font-size:12px !important;
+   text-align: center;
+color: rgb(221, 221, 221) !important;
+}
+
+
+

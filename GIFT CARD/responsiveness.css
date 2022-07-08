@@ -1,0 +1,780 @@
+/* FOR PHONE */
+@media only screen and  (max-width:480px){
+ body{
+    font-size: 7px !important;
+    width: 100% !important;
+    min-height: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: "Amazon Ember", Arial, sans-serif !important;
+}
+.pool{
+    width:320% !important;
+    height: 75px !important;
+   display: flex !important; 
+    padding: 0px !important;
+    margin: 0px !important;
+   align-items: center !important;
+}
+.navleft{
+    width: 20% !important;
+    display: flex !important;
+    align-items: center !important;
+    /* margin: 2px !important; */
+}
+
+.loc{
+    font-size:15px !important;
+    font-weight: bolder !important;
+}
+.nav-center{
+      width: 50% !important;
+      display: flex !important;
+      align-items: center !important;
+}
+.navright{
+   width: 30% !important;
+   display: flex !important;
+   align-items: center !important;
+}
+.mage span{
+    display: none !important;
+}
+.user{
+   font-size: 9px !important;
+   font-weight: bolder !important;   
+}
+.user2{
+   font-size: 11px !important;
+}
+.ret{  
+   font-size:9px !important;
+   font-weight: bold !important;
+}
+.ret1{
+   font-size: 11px !important;
+   
+}
+.secnav{
+width: 320% !important;
+height: 50px !important;
+display: flex !important;
+font-size: 17px !important;
+padding: 0px !important;
+align-items: center !important;
+}
+.secnav ul li{
+color: rgb(204, 204, 204) !important;
+font-size: 14px !important;
+}
+.bar .fa-bars{
+    font-size: 20px;
+ }
+ .bar span{
+     height: 12px !important;
+     font-size: 19px !important;  
+ }
+.dg{
+display: none !important;  
+}
+ /* .container-fliud{
+     width: 125% !important;
+ } */
+ .third{
+     display: flex !important;
+     height: 30px !important;
+     width: 320% !important; 
+     border: none !important;
+     border-bottom: 2px solid rgb(148, 135, 135) !important;
+  }
+ .uefa{
+     font-size: 12px !important;
+ }
+  .sde{
+    width: 320% !important;
+    margin: 0px !important;
+    margin-top: 7px !important;
+    display: flex !important;
+}
+.left{
+    font-size: 14.5px !important;
+    width: 15% !important;
+}
+.on{
+    font-size: 20px !important;
+}
+.fa-check{
+    font-size: 24px !important;
+}
+.right{
+    width: 85% !important;
+}
+.ard{
+    width: 100% !important;
+}
+.gm{
+    width: 95% !important;
+    height: 250px !important;
+    margin-bottom: 20px !important;
+}
+.mg1{
+    width: 60px !important;
+    /* height: 100px !important; */
+     margin-right: 277px !important;
+}
+.amp{
+    height: 125px !important;
+    width: 97% !important;
+    margin-bottom: 4px !important;
+}
+.amp div{
+    margin: 15px !important;
+    font-size: 14px !important;
+}
+.amp p{
+    font-size: 13px !important;
+}
+.pec{
+    width: 97% !important;
+    margin-left: 9px !important;
+}
+.pec img{
+    width: 469px !important;
+    margin-right: 5px !important;
+}
+.pes{
+    width: 97% !important;  
+}
+.pes div{
+    margin: 35px !important; 
+} 
+.pes p{
+    font-size: 12px !important;
+}
+.sly{
+    width: 97% !important;
+}
+.sly h5{
+    font-size: 35px !important;
+    color: rgb(93, 93, 93)!important;
+}
+.sot{
+    width: 97% !important;
+    margin-bottom: 4px !important;
+}     
+.sot1{
+    width: 99% !important;
+    margin-bottom: 15px !important;  
+}
+.sot1 img{
+    width: 97% !important;
+}
+.not{
+    width: 97% !important;
+    height: 80px !important;
+}
+.not div{
+    margin: 26px !important;
+}
+.not h3{
+    font-size:17px;
+}
+.not a{
+    font-size: 15px !important;
+}
+.caro{
+    width: 97% !important;
+    margin-bottom: 9px !important;
+}
+.caro h4{
+    font-size: 30px;
+    color: rgb(15, 17, 17);
+}
+.carousel-inner{
+height:270px !important;
+width: 97.6% !important;
+margin: 27px !important;
+}
+.azo{
+height:30px !important;
+font-size:12px;
+margin: 5px !important;
+}
+.zoo{
+width: 160px !important;
+margin: 5px !important;
+height: 30px !important; 
+/* border: 1px solid darkblue; */
+ }
+.zoo1{
+width: 10px !important;
+height: 15px !important;
+margin: 5px !important;
+/* border: 1px solid red !important; */
+ font-size:14px !important;
+}
+.zoo span{
+width: 23px;
+margin: 5px !important;
+font-size: 21px;
+height:23px;
+
+}
+.corn{ 
+/* border: 1px solid saddlebrown !important; */
+ height: 43px;
+margin: 5px !important;
+}
+.corn .fa-star{
+font-size: 20px !important;
+}
+.corn span{
+font-size: 15px !important;
+margin: 5px !important;
+}
+.hala{
+width: 40px  !important;
+height: 200px !important; 
+/* border: 1px solid firebrick !important; */
+ }
+.hala .hala1{ 
+/* border: 1px solid; */
+ width: 30px !important;
+height: 30px !important;
+}
+.cala{
+width: 40px  !important;
+height: 200px !important; 
+/* border: 1px solid firebrick !important; */
+ }
+.cala .cala1{
+/* border: 1px solid; */
+font-size:14px !important;
+width: 30px !important;
+height: 30px !important;
+}
+.wit{
+    width: 97% !important;
+    height: 245px !important;
+    margin: 20px !important;
+}
+.witt h2{
+    font-size:27px;
+}
+.witt1{
+    display: flex !important;  
+    width: 100%;
+    height: 200px !important;
+}
+.witt1 img{
+    width: 340px !important;
+    height: 170px !important;
+    margin-right: 24px !important;
+}
+  /* FOOTER */
+   .footer{
+    width: 330%!important;
+    height: 1098px !important;
+    background-color: rgb(35, 47, 62) !important;
+}
+.stan{
+    width: 100%;
+    height: 42px !important;
+    border-top: 10px !important;    
+    font-size:15px;
+    background-color: rgb(73, 85, 100) !important;
+} 
+         /* COT BEGIN */
+ .cot{
+    width: 100%;
+    height: 400px;
+}
+.zee{
+    width: 20% !important;
+    height: 320px !important; 
+    font-size:18px !important;
+}
+.zee a{
+    font-size:14.5px !important;
+}
+.empty{
+    width: 9% !important;
+    height: 300px !important;
+} 
+               /* COT END */
+ .rut{
+    width: 100% !important;
+    border: none !important;
+    border-top:2px solid rgb(232, 232, 232) !important; 
+    /* opacity: 0.4 !important; */
+}
+           /* ZON */
+.zon{
+    margin-top: 10px !important;
+    width: 72% !important;
+    height: 70px !important;
+}
+.zon span{
+    width: 15% !important;
+    height: 70px !important;
+     margin-right: 88px !important;
+}
+.zon div{
+    background-image: url(./image/logo.png);
+    width: 130px !important;
+    height: 36px !important;
+}
+.zon a{
+    Font-size: 16px;
+    margin: 8px !important;
+    display: flex !important;
+    justify-content: center !important;
+    width: 170px !important;
+    text-align: center !important;
+    height: 35px !important;
+    
+}
+.zon i{
+    margin: 4px !important; 
+    /* font-size: 20px !important;    */
+ }
+.zon .lag{
+    background-image: url(./image/flag.png);
+    background-size: cover !important;
+    width:23px !important;
+    height: 15px !important;
+    margin: 8px !important;
+} 
+          /* ZON END */
+          /* END */
+ .end{
+    width: 100% !important;
+    height: 538px !important;
+    font-size:13px;
+    background-color: rgb(19, 26, 34) !important; 
+    
+}    
+                       /*  TABLLE */
+ .end table{
+    width: 89% !important;
+    height: 460px !important;
+     margin: 20px !important;
+    background-color: rgb(19, 26, 34) !important; 
+} 
+                           /* first row  */
+  .racer{
+     display: block !important;
+ } 
+ .racer a{
+     font-size:11px !important;
+ }   
+ .racer span{  
+    width: 110px;
+    height: 35px;
+    font-size:9px !important;
+    color: rgb(153, 153, 153) !important;
+ }                     
+ .sec{
+    width: 75px !important;
+    height: 15px !important;
+ } 
+            /* TABLE END */
+ .last{
+    width: 100% !important;
+    height: 75px !important;
+}            
+.last a{
+   margin-right: 5px !important;
+   font-size:15px !important;
+} 
+}
+@media only screen and (max-width:768px) and (min-width:481px){
+    body{
+        font-size: 7px !important;
+        width: 100% !important;
+        /* height: 100vh !important;  */
+        margin: 0px !important;
+        padding: 0px !important;
+        font-family: "Amazon Ember", Arial, sans-serif !important;
+    }
+    
+    .navbar-color{
+        width: 200% !important;
+        height: 50px !important;
+       display: flex !important;
+       font-size: 29px !important;
+       margin: 0px !important;
+        padding: 0px !important;
+       align-items: center !important;
+    }
+    .navleft{
+        width: 15% !important;
+        display: flex !important;
+        margin: 0px !important;
+        align-items: center !important;
+    }
+    .loc{
+        font-size:12px !important;
+        font-weight: bolder !important;
+    }
+    .nav-center{
+          width: 55% !important;
+          margin: 0px !important;
+     }
+    .navright{
+       width:30% !important;
+       display: flex !important;
+       align-items: center !important;
+    }
+    .user{
+       font-size: 11px !important;
+       font-weight: bolder !important;   
+   }
+   .user2{
+       font-size: 14px!important;
+       font-weight: bolder !important;
+   }
+   .ret{  
+       font-size:15px !important;
+       font-weight: bolder !important;
+   }
+   .ret1{
+       font-size: 14px !important;
+       font-weight: 400 !important;
+   } 
+   .secnav ul li{
+    color: rgb(204, 204, 204) !important;
+    font-size: 17px !important;
+    }
+    /* .bar .fa-bars{
+        font-size: 20px;
+     } */
+     .bar span{
+         height: 12px !important;
+         font-size: 19px !important;  
+     }
+     .dg{
+        width: 210px !important;
+        margin-left: 139px !important; 
+        font-size: 19px !important;
+    }
+    /* .container-fliud{
+    } */
+      .third{
+        display: flex !important;
+        height: 30px !important;
+        width: 200% !important; 
+        font-size: 17px !important;
+      } 
+    .uefa{
+        font-size: 17px !important;
+    }
+     .sde{
+       width: 200% !important;
+       margin: 0px !important;
+       margin-top: 7px !important;
+       display: flex !important;
+   }
+   .left{
+       font-size: 17px !important;
+       width: 15% !important;
+   }
+   .on{
+       font-size: 20px !important;
+   }
+   .fa-check{
+       font-size: 25px !important;
+   }
+  .right{
+       width: 85% !important;
+   }
+    .ard{
+       width: 120% !important;    
+   }
+   .gm{
+       width: 75% !important;
+       height: 250px !important;
+       margin-bottom: 20px !important;  
+   }
+   .mg1{
+       width: 390px !important; 
+   }
+   .amp{
+       height: 155px !important;
+       width: 74% !important;
+       
+       margin-bottom: 5px !important;
+   }
+   .amp div{
+       margin: 25px !important;
+       font-size: 14px !important;
+   }
+.amp p{
+    font-size: 16.5px !important;
+}  
+   .pec{
+       width: 75% !important;
+       margin-left: 9px !important;
+   }
+   .pec img{
+       width: 520px !important;
+       /* margin-right: 5px !important; */
+   }
+   .pes{
+       width: 75% !important;
+       
+   }
+   .pes div{
+       margin: 35px !important; 
+       font-size: 14px !important;
+   } 
+   .pes p{
+    font-size: 16.5px !important;
+}
+  .sly{
+       width: 97% !important;   
+   }
+   .sly h5{
+       font-size: 45px !important;
+       color: rgb(93, 93, 93)!important;
+   }
+   .drop{
+    display: block !important;
+    width: 97% !important;
+    height: 54px !important;
+}
+.collapsible {
+    width: 100%; 
+    font-size: 23px;
+  }
+    .sot{
+       width: 97% !important;
+       margin-top: 30px !important;margin-bottom: 75px !important;
+       
+   }     
+   .sot1{
+       width: 99% !important;
+   }
+   .sot1 img{
+       width: 95% !important;
+   }
+   .not{
+       width: 98% !important;
+       height: 90px !important;
+   }
+   .not div{
+       margin: 22px !important;
+   }
+   .not h3{
+       font-size:18.5px;
+   }
+   .not a{
+       font-size: 15px !important;
+   }
+   .caro{
+       width: 92% !important;
+       margin-bottom: 9px !important; 
+   }
+   .caro h4{
+       font-size: 33px;
+       color: rgb(15, 17, 17);
+   }
+   .carousel-inner{
+   height:270px !important;
+   width: 95.6% !important;
+   margin: 27px !important;
+   }
+   .azo{
+   height:30px !important;
+   font-size:13px;
+   margin: 5px !important;
+   }
+   .zoo{
+   width: 160px !important;
+   margin: 5px !important;
+   height: 30px !important; 
+   /* border: 1px solid darkblue; */
+ }
+   .zoo1{
+   width: 10px !important;
+   height: 15px !important;
+   margin: 5px !important; 
+   /* border: 1px solid red !important; */
+    font-size:14px !important;
+   }
+   .zoo span{
+   width: 23px;
+   margin: 5px !important;
+   font-size: 21px;
+   height:23px;
+   
+   }
+   .corn{ 
+   /* border: 1px solid saddlebrown !important; */
+   height: 43px;
+   margin: 5px !important;
+   }
+   .corn .fa-star{
+   font-size: 20px !important;
+   }
+    .corn span{
+   font-size: 15px !important;
+   margin: 5px !important;
+   }
+ .hala{
+   width: 40px  !important;
+   height: 200px !important; 
+   /* border: 1px solid firebrick !important; */
+    }
+   .hala .hala1{ 
+   /* border: 1px solid; */
+    width: 30px !important;
+   height: 30px !important;
+   }
+   .cala{
+   width: 40px  !important;
+   height: 200px !important; 
+   /* border: 1px solid firebrick !important; */
+    }
+   .cala .cala1{ 
+   /* border: 1px solid; */
+    font-size:14px !important;
+   width: 30px !important;
+   height: 30px !important;
+   }
+   .wit{
+       width: 97% !important;
+       height: 260px !important;
+       margin: 25px !important;
+   }
+   .witt h2{
+       font-size:30px;
+   }
+   .witt1{
+       display: flex !important;  
+       width: 100%;
+       height: 190px !important;
+   }
+   .witt1 img{
+       width: 350px !important;
+       height: 175px !important;
+       margin-right: 24px !important;
+   } 
+    /* FOOTER */
+  .footer{
+    width: 200% !important;
+    height: 1093px !important; 
+    margin-top: 25px !important;
+     
+    background-color: rgb(35, 47, 62) !important;
+}
+ .stan{
+    width: 100% !important;
+    height: 42px !important;
+    border-top: 10px !important;
+    font-size:15px;
+    background-color: rgb(73, 85, 100) !important;
+} 
+         /* COT BEGIN */
+ .cot{
+    width: 100% !important;
+    height: 400px;
+}
+.zee{
+    width: 20% !important;
+    height: 320px !important; 
+    font-size:20px !important;
+}
+.zee a{
+    font-size:14.5px !important;
+}
+.empty{
+    width: 9% !important;
+    height: 300px !important;
+} 
+               /* COT END */
+.rut{
+    width: 100% !important;
+    border: none !important;
+    border-top:2px solid rgb(232, 232, 232) !important;
+    /* opacity: 0.4 !important; */
+}
+           /* ZON */
+ .zon{
+    margin-top: 10px !important;
+    width: 72% !important;
+    height: 70px !important;
+}
+.zon span{
+    width: 15% !important;
+    height: 70px !important;
+     margin-right: 88px !important;
+}
+.zon div{
+    background-image: url(./image/logo.png);
+    width: 130px !important;
+    height: 36px !important;
+}
+.zon a{
+    Font-size: 16px;
+    margin: 8px !important;
+    display: flex !important;
+    /* justify-content: center !important; */
+    width: 170px !important;
+    text-align: center !important;
+    height: 35px !important;
+    
+}
+.zon i{
+    margin: 4px !important;
+    font-size: 20px !important;   
+ }
+.zon .lag{
+    background-image: url(./image/flag.png);
+    background-size: cover !important;
+    width:23px !important;
+    height: 15px !important;
+    margin: 8px !important;
+} 
+          /* ZON END */
+          /* END */
+.end{
+    width: 100% !important;
+    height: 538px !important;
+    font-size:13px;
+    background-color: rgb(19, 26, 34) !important;  
+}  
+                       /*  TABLLE */
+ .end table{
+    width: 89% !important;
+    height: 460px !important;
+     margin: 20px !important;
+    background-color: rgb(19, 26, 34) !important; 
+}  
+                           /* first row  */
+  .racer{
+     display: block !important;
+ } 
+ .racer a{
+     font-size:11px !important;
+ }   
+ .racer span{  
+    width: 110px;
+    height: 35px;
+    font-size:9px !important;
+    color: rgb(153, 153, 153) !important;
+ }                     
+ .sec{
+    width: 75px !important;
+    height: 15px !important;
+ } 
+            /* TABLE END */
+ .last{
+    width: 100% !important;
+    height: 75px !important;
+}            
+.last a{
+   margin-right: 3px !important;
+  font-size:15px !important;
+ } 
+   }

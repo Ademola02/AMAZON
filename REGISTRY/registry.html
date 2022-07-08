@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registry</title>
+    <link rel="stylesheet" href="./registry.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./responsiveness.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+ <!-- Navbar Start -->
+ <nav class="navbar navbar-expand-sm navbar-color pool" style="background-color:rgb(19, 25, 33) ; border-color: rgb(113, 117, 122) !important;">
+  <div class="container-fliud">
+       <div class="row">
+         <!-- NAV LEFT -->
+              <div class="col-lg-2  navleft">
+                      <div class="d-flex ">
+                            <div class="flex-fill btn logo">
+                                      <a class="navbar-brand " href="#">
+                                         <img src="../IMAGE/amazon.png" alt="amazon-logo" height="30px"> 
+                                      </a>
+                            </div>
+                            <div class="flex-fill btn loc">
+                                      <span style="color: rgb(104, 107, 111);">Deliver</span><br>
+                                      <span class="text-weight-bolder" style="color:rgb(186, 188, 191);">
+                                      <i class="fa fa-map-marker">Nigeria</span></i>
+                              </div>
+                        </div>
+                </div>   
+              <!-- NAV CENTER -->
+             <div class="col-lg-6 nav-center">
+              <form class="form-inline">
+                <div class="input-group mt-2">
+                    <div class="input-group-prepend">
+                      <div class="nav-search">
+                        <div class="nav-search btn"style="background-color: rgb(218, 218, 218);">
+                          <span  class="nav-search-label dropdown-toggle dt" title="Search in" data-target="#drop" data-toggle="collapse">All</span>
+                        </div>
+                        
+                        <select class="form-control nav collapse" id="drop" > 
+                            <option  value="search">All Departments</option>
+                            <option value="search">Arts & Crafts</option>
+                            <option value="search">Automotive</option>
+                            <option value="search">Baby</option>
+                            <option value="search">Beauty & Personal Care</option>
+                            <option value="search">Books</option>
+                            <option value="search">Boys' Fashion</option>
+                            <option value="search">Computers</option>
+                            <option value="search">Deals</option>
+                            <option value="search">Digital Music</option>
+                            <option value="search">Electronics</option>
+                            <option value="search">Girls' Fashion</option>
+                            <option value="search">Health & Household</option>
+                            <option value="search">Home & Kitchen</option>
+                            <option value="search">Industrial & Scientific</option>
+                            <option value="search">Kindle Store</option>
+                            <option value="search">Luggage</option>
+                            <option value="search">Men's Fashion</option>
+                            <option value="search">Movies & TV</option>
+                            <option value="search">Music, CDs & Vinyl</option>
+                            <option value="search">Pet Supplies</option>
+                            <option value="search">Prime Video</option>
+                            <option value="search">Software</option>
+                            <option value="search">Sports & Outdoors</option>
+                            <option value="search">Tools & Home Improvement</option>
+                            <option value="search">Toys & Games</option>
+                            <option value="search">Video Games</option>
+                            <option value="search">Women's Fashion</option>
+                        </select>
+                      </div>
+                    </div>
+                    <input type="email" class="form-control" size="100" name="query" id="query">
+                    <input type="email"  name="category" id="category" hidden>
+                    <div class="input-group-append">
+                      <button type="search" class="btn ser" style="background-color: rgb(233, 192, 139);">
+                         <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                </div> 
+           </form>
+             </div> 
+             <!-- NAV RIGHT -->
+                  <div class="col-lg-4   navright">
+                    <div class="d-flex mt-2">
+                      <div class="flex-fill">
+                        <a class=" btn btn-sm  dropdown-toggle" href="blank" id="lang" role="button" data-toggle="dropdown">
+                        <img src="../IMAGE/fla.png" alt="">
+                          </a>
+                          <div class="dropdown-menu   chalang">
+                              <div class="ner">
+                                <span>Change Language <a href="#"> Learn more</a></span>
+                                <span class="ran"><i class="fa fa-dot-circle-o"><span>English EN</span></i></span>
+                                <div class="lank"></div>
+                                <a href="" class="juve"><i class="fa fa-dot-circle-o"><span> español - ES - Tradu</span></i></a>
+                                <a href="" class="juve"><i class="fa fa-dot-circle-o"><span><bdo dir="rtl"> العربية -RA-  الترجمة </bdo></span></i></a>
+                                <a href="" class="juve"><i class="fa fa-dot-circle-o"><span>Spanish</span></i></a>
+                                <a href="" class="juve"><i class="fa fa-dot-circle-o"><span><bdo dir="ltr">  עברית - HE - תרגום</bdo></span></i></a>
+                                <a href="" class="juve"><i class="fa fa-dot-circle-o"><span><bdo dir="rtl"> 한국어 - KO - 번역</bdo> </span></i></a>
+                                <a href="" class="juve"><i class="fa fa-dot-circle-o"><span><bdo>português - PT</bdo></span></i></a>
+                                <a href="" class="juve"><i class="fa fa-dot-circle-o"><span><bdo dir="rtl"> 中文 (简体) - ZH - 翻译</bdo></span></i></a>
+                                <a href="" class="juve"><i class="fa fa-dot-circle-o"><span><bdo> 中文 (简体) - ZH - 翻译</bdo></span></i></a>
+                                <div class="lank"></div>
+                                <span>Change Currency <a href="#"> Learn more</a></span>
+                                <span class="usd"><strong>$</strong>USD - U.S. Dollar <a href="">Change</a></span>
+                                <div class="lank"></div>
+                                <span class="taj"><i></i>You are shopping on Amazon.com</span>
+                                <div class="gon"><a href="">Change country/region</a></div>
+                              </div>
+                          </div>
+                    </div>    
+                   <div class="flex-fill">
+                     <a class="" href="#"  data-toggle="dropdown">
+                      <div class="btn user">
+                      <span class="user1">Hello,Sign in</span><br>
+                      <span class="user2">Accounts & Lists<i class="fa fa-caret-down"></span></i>
+                      </div>
+                    </a>
+                    <div class="dropdown-menu   log">
+                      <div class=" log1">
+                        <div class=" log2">
+                        <button href="#" class="btn  log3">Signin</button>
+                        <small><p class="text-muted">New customer?<a href="#"> Start here.</a></p></small></div>
+                        <div class=" tab  d-flex">
+                             <div class="tab1  flex-fill">
+                            <h5>Your Lists</h5> 
+                            <a href="blank">Create a list</a><br>
+                            <a href="blank">Find a List or Registry</a><br>
+                            <a href="blank">AmazonSmile Charity Lists</a>
+                             </div>
+                          <div class="tab2 flex-fill">
+                            <h6>Your Account</h6>
+                          <a href="blank">Account</a><br>
+                          <a href="blank">Order</a><br>
+                          <a href="blank">Recommendations</a><br>
+                          <a href="blank">Browsing History</a><br>
+                          <a href="blank">Watchlist</a><br>
+                          <a href="blank">Videos Purchases & Rentals</a><br>
+                          <a href="blank">kindle unlimited</a><br>
+                          <a href="blank">Content & Devices</a><br>
+                          <a href="blank">Subscribe & Save Items</a><br>
+                          <a href="blank">Memberships & Subscriptions</a><br>
+                          <a href="blank">Music Library</a>
+                          </div>
+                        
+                          </div>
+                          </div>
+                          </div>
+                  </div>
+                         <div class="flex-fill btn ret" style="color: rgb(255, 255, 255)">
+                            <span>Returns</span><br>
+                           <span class="ret1">& Orders</span>
+                         </div>
+                         <div class="flex-fill btn mage">
+                          <a class="navbar-brand"  href="#">
+                            <img src="../IMAGE/cart.png" alt="" height="30">
+                            <span>cart</span>
+                          </a>
+                         </div>
+                         </div>
+                      </div>
+          </div>     
+    </div>
+</nav>
+             
+<!-- <SECOND NAVBAR START> -->
+<nav class="navbar navbar-expand navbar-color secnav" style="background-color:rgb(35, 47, 62) ; border-color: rgb(113, 117, 122)">
+<!-- <div class="container-fliud"> -->
+  <a class="bar" href="#">
+    <i class="fa fa-bars"><span>All</span></i>
+  </a>
+    
+   <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link td" href="#">Today's Deals</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link cs" href="#">Customer Service</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link re" href="../REGISTRY/registry.html">Registry</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link gc" href="../GIFT CARD/gift.html">Gift Cards</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link se" href="#">Sell</a>
+    </li>
+  </ul>
+  <a class="dg" href="#">Shop Mother's Day Gifts</a>
+  
+</nav>
+       <!-- THIRD  NAVBAR-->
+       <nav class="container-fliud  third">
+         <a class="reg" href="#"> 
+           <img src="./image/Registry_Gifting_Logo._CB1579290193_.png" alt="">
+          </a>
+          <div class="pulse">
+            <div>Menu</div><button class="gym"><i class="fa fa-chevron-down"></i>
+            <div class="forshy">
+                <div class="fors">
+                    <a class="ku1" href="#"><span>Holiday Gift List</span></a> 
+                 <a class="sa1" href="#"><span>Wedding Registry</span></a> 
+                 <a class="by1" href="#"><span>Baby Registry</span></a> 
+                 <a class="ft1" href="#"><span>Birthday Gift List</span></a> 
+                 <a class="us1" href="#"><span>Custom Gift List</span></a> 
+                 <a class="el1" href="#"><span>Help</span></a>
+                </div>
+            </div></button></div>
+          <div class="reg1">
+         <a class="ku" href="#"><span>Holiday Gift List</span></a> 
+         <a class="sa" href="#"><span>Wedding Registry</span></a> 
+         <a class="by" href="#"><span>Baby Registry</span></a> 
+         <a class="ft" href="#"><span>Birthday Gift List</span></a> 
+         <a class="us" href="#"><span>Custom Gift List</span></a> 
+         <a class="el" href="#"><span>Help</span></a></div> 
+       </nav>
+
+                <!-- THIRD NAVBAR -->
+    <div class="loms">
+          <div class="hel">Find a registry or gift list</div>
+          <div class="mog">
+            <div class="ran">Registrant name</div>
+            <input class="btn faz" type="text" placeholder="Search by Registrant name">
+            <span  class="btn dem" data-toggle="demzy" data-target="#son"> 
+            <select class="demzy" id="son">
+              <option  href="#">Wedding Registry</option>
+              <option  href="#">Baby Registry</option>
+              <option  href="#">Birthday Gift List</option>
+              <option  href="#">Custom Gift List</option>
+              <option  href="#">Holiday Gift List</option>
+            </select>
+          </span>
+          <button class="old">Search</button>
+          </div>      
+    </div> 
+      <p class="dday">Whether you’re celebrating a wedding, a baby, a birthday, or other memorable milestone,<br>
+        our registries and gift lists will help you and your guests find the perfect gifts.</p>
+     <div class="axe">
+       <a href=""><p>Happily Ever After</p><img src="./image/wedding_registry_238x238.jpg" alt=""><div>Wedding Registry</div></a>
+       <a href=""><p>New Baby</p><img src="./image/baby_gift_238x238.jpg" alt=""><div>Baby Registry</div></a>
+       <a href=""><p>Kid's Birthday</p><img src="./image/birthday_gift_238x238.jpg" alt=""><div>Birthday Gift List</div></a>
+       <a href=""><p>Any Occasion</p><img src="./image/custom_gift_238x238.jpg" alt=""><div>Custom Gift List</div></a>
+       <a href=""><p>The Holiday Season</p><img src="./image/Holiday_238x238-2.jpg" alt=""><div>Holiday Gift List</div></a>
+     </div>
+     <!-- FOOTER -->
+     <div class="container-fliud footer" >
+     <span class="stan" href="#">Back to top</span>
+            <div class="cot">
+               <div class="zee">
+                 Get to Know Us
+                 <ul>
+                   <li><a href="">Careers</a></li>
+                   <li><a href="">Blog</a></li>
+                   <li><a href="">About Amazon</a></li>
+                   <li><a href="">Investor Relations</a></li>
+                   <li><a href="">Amazon Devices</a></li>
+                   <li><a href="">Amazon Science</a></li>
+                 </ul>
+               </div>
+               <div class="empty"></div>
+               <div class="zee">
+                Make Money with Us
+                <ul>
+                  <li><a href="">Sell products on Amazon</a></li>
+                  <li><a href="">Sell on Amazon Business</a></li>
+                  <li><a href="">Sell apps on Amazon</a></li>
+                  <li><a href="">Become an Affiliate</a></li>
+                  <li><a href="">Advertise Your Products </a></li>
+                  <li><a href="">Self-Publish with Us</a></li>
+                  <li><a href="">Host an Amazon Hub</a></li>
+                  <li><a href=""><i class="fa fa-caret-right"></i> See More Make Money with Us</a></li>
+                  <li><a href="">Self-Publish with Us</a></li>
+                </ul>
+              </div>
+              <div class="empty"></div>
+              <div class="zee">
+                Amazon Payment Product
+                <ul>
+                  <li><a href="">Amazon Business Card</a></li>
+                  <li><a href="">Shop with Points</a></li>
+                  <li><a href="">Reload Your Balance</a></li>
+                  <li><a href="">Amazon Currency Converter</a></li>
+                </ul>
+              </div>
+              <div class="empty"></div>
+              <div class="zee">
+                Let Us Help You
+                <ul>
+                  <li><a href="">Amazon and COVID-<br>19</a></li>
+                  <li><a href="">Your Account</a></li>
+                  <li><a href="">Your Orders</a></li>
+                  <li><a href="">Shipping Rates &amp;<br>Policies</a></li>
+                  <li><a href="">Returns &amp;<br>Replacements</a></li>
+                  <li><a href="">Manage Your<br>Content and Devices</a></li>
+                  <li><a href="">Amazon Assistant</a></li>
+                  <li><a href="">Help</a></li>
+                </ul>
+              </div>   
+              </div>
+                       <!-- COT END -->
+           <div class="rut"></div> 
+                    <!-- ZON -->
+           <div class="zon">
+             <span><div></div></span>
+             <a href="" class=""><i class="fa fa-globe"></i>English</a>
+             <a href="" class=""><strong>$</strong>USD - U.S. Dollar</a>
+             <a href="" class=""><span class="lag"></span>United States</a>
+           </div><br>  
+                <!-- ZON END -->
+                <!-- END  -->
+       <div class="end">
+         <table>
+           <tbody>
+             <!-- first row -->
+             <tr>
+               <td class="racer" style="width: 78.5px; height: 45px;"><a href="" style="width: 72px; height: 36px;">Amazon Music<br><span style="width: 71px; height: 22px;">Stream millions<br>of songs</span></a></td>
+               <td class="spacer" style="width: 20px; height: 45px;"></td>
+               <td class="racer" style="width: 104.5px; height: 45px;"><a href="" style="width: 100px; height: 36px;">Amazon Advertising<br><span style="width: 83px; height: 22px;">Find, attract, and<br>engage customers</span></a></td>
+               <td class="spacer" style="width: 20px; height: 45px;"></td>
+               <td class="racer" style="width: 73.5px; height: 45px;"><a href="" style="width: 70px; height: 36px;">Amazon Drive<br><span style="width: 63px; height: 22px;">Cloud storage<br>from Amazon</span></a></td>
+               <td class="spacer" style="width: 20px; height: 45px;"></td>
+               <td class="racer" style="width: 70.5px; height: 45px;"><a href="" style="width: 71px; height: 47px;">6pm<br><span style="width: 71px; height: 33px;">Score deals<br>on fashion brands</span></a></td>
+               <td class="spacer" style="width: 20px; height: 45px;"></td>
+               <td class="racer" style="width: 147.5px; height: 45px;"><a href="" style="width: 61px; height: 36px;">AbeBooks<br><span style="width: 61px; height: 22px;">Books, art<br>&amp; collectibles</span></a></td>
+               <td class="spacer" style="width: 20px; height: 45px;"></td>
+               <td class="racer" style="width: 82.5px; height: 45px;"><a href="" style="width: 83px; height: 47px;">ACX <br><span style="width: 83px; height: 33px;">Audiobook Publishing<br>Made Easy</span></a></td>
+               <td class="spacer" style="width: 20px; height: 45px;"></td>
+               <td class="racer" style="width: 87.5px; height: 45px;"><a href="" style="width: 88px; height: 47px;">Alexa<br><span style="width: 88px; height: 33px;">Actionable Analytics<br>for the Web</span></a></td>
+             </tr>
+             <tr class="sec"><td></td></tr>
+                     <!-- third row -->
+                     <tr>
+                      <td class="racer" style="width: 78.5px; height: 68px;"><a href="" style="width: 79px; height: 36px;">Sell on Amazon<br><span style="width: 79px; height: 22px;">Start a Selling Account</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 68px;"></td>
+                      <td class="racer" style="width: 104.5px; height: 68px;"><a href="" style="width: 86px; height: 36px;">Amazon Business<br><span style="width: 67px; height: 22px;">Everything For<br>Your Business</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 68px;"></td>
+                      <td class="racer" style="width: 73.5px; height: 68px;"><a href="" style="width: 73px; height: 36px;">Amazon Global<br><span style="width: 67px; height: 22px;">Ship Orders<br>Internationally</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 68px;"></td>
+                      <td class="racer" style="width: 70.5px; height: 68px;"><a href="" style="width: 71px; height: 70px;">Home Services<br><span style="width: 71px; height: 44px;">Experienced<br>Pros<br>Happiness<br>Guarantee</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 68px;"></td>
+                      <td class="racer" style="width: 147.5px; height: 68px;"><a href=""style="width: 86px; height: 47px;">Amazon Ignite<br><span style="width: 86px; height: 33px;">Sell your original<br>Digital Educational<br>Resources</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 68px;"></td>
+                      <td class="racer" style="width: 82.8px; height: 68px;"><a href="" style="width: 83px; height: 59px;">Amazon Web Services<br><span style="width: 83px; height: 33px;">Scalable Cloud<br>Computing<br>Services</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 68px;"></td>
+                      <td class="racer" style="width: 87.5px; height: 68px;"><a href="" style="width: 88px; height: 58px;">Audible<br><span style="width: 88px; height: 44px;">Listen to Books &amp; Original<br>Audio<br>Performances</span></a></td>
+                    </tr>
+                    <tr class="sec"><td></td></tr>
+                    <!-- fifth row -->
+                    <tr>
+                      <td class="racer" style="width: 78.5px; height: 57px;"><a href="" style="width: 79px; height: 59px;">Book Depositor<br><span style="width: 79px; height: 22px;">Books With Free<br>Delivery Worldwide</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 104.5px; height: 57px;"><a href="" style="width: 79px; height: 36px;">Box Office Mojo<br><span style="width: 67px; height: 22px;">Find Movie<br>Box Office Data</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 73.5px; height: 57px;"><a href="" style="width: 65px; height: 36px;">ComiXology<br><span style="width: 67px; height: 22px;">Thousands of<br>Digital Comics</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 70.5px; height: 57px;"><a href="" style="width: 59px; height: 36px;">DPReview<br><span style="width: 71px; height: 44px;">Digital<br>Photography</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 147.5px; height: 57px;"><a href="" style="width: 75px; height: 36px;">Fabric<br><span style="width: 86px; height: 33px;">Sewing, Quilting<br>&amp; Knitting</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 82.5px; height: 57px;"><a href="" style="width: 83px; height: 47px;">Goodreads<br><span style="width: 88px; height: 33px;">Book reviews<br>&amp; recommendations</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 87.5px; height: 57px;"><a href="" style="width: 58px; height: 36px;">IMDb<br><span style="width: 88px; height: 44px;">Movies, TV<br>&amp;Celebrities</span></a></td>
+                    </tr>
+                    <tr class="sec"><td></td></tr>
+                     <!-- seventh row -->
+                     <tr>
+                      <td class="racer" style="width: 78.5px; height: 57px;"><a href="" style="width: 79px; height: 58px;">IMDbPro<br><span style="width: 79px; height: 33px;">Get Info Entertainment<br>Professionals Need</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 104.5px; height: 57px;"><a href="" style="width: 105px; height: 59px;">Kindle Direct Publishing<br><span style="width: 70px; height: 22px;">Indie Digital &amp; Print Publishing<br>Made Easy</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 73.5px; height: 57px;"><a href="" style="width: 74px; height: 59px;">Prime Video Direct<br><span style="width: 65px; height: 22px;">Video Distribution<br>Made Easy</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 70.5px; height: 57px;"><a href="" style="width: 69px; height: 36px;">Shopbop<br><span style="width: 59px; height: 22px;">Designer<br>Fashion Brands</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 147.5px; height: 57px;"><a href="" style="width: 58px; height: 36px;">Woot!<br><span style="width: 75px; height: 22px;">Deals and<br>Shenanigans</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 82.5px; height: 57px;"><a href="" style="width: 39px; height: 30px;">Zappos<br><span style="width: 83px; height: 33px;">Shoes &amp;<br>Clothing</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer" style="width: 87.5px; height: 57px;"><a href="" style="width: 77px; height: 36px;">Ring<br><span style="width: 58px; height: 22px;">Smart Home<br>Security Systems</span></a></td>
+                    </tr>
+                    <tr class="sec"><td></td></tr>
+                    <!-- ninth row -->
+                    <tr>
+                      <td class="racer" style="width: 78.5px; height: 57px;"></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer"style="width: 104.5px; height: 57px;"><a href="" style="width: 76px; height: 36px;">eero WiFi<br><span style="width: 76px; height: 22px;">Stream 4K Video<br>in Every Room</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer"style="width: 73.5px; height: 57px;"><a href="" style="width: 71px; height: 36px;">Blink<br><span style="width: 71px; height: 22px;">Smart Security<br>for Every Home</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer"style="width: 70.5px; height: 57px;"><a href="" style="width: 71px; height: 59px;">Neighbors App<br><span style="width: 71px; height: 33px;"> Real-Time Crime<br>&amp;Safety Alerts</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer"style="width: 147.5px; height: 57px;"><a href="" style="width: 148px; height: 36px;">Amazon Subscription Boxes<br><span style="width: 148px; height: 22px;">Top subscription boxes–right to your door</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer"style="width: 82.5px; height: 57px;"><a href="" style="width: 83px; height: 36px;">PillPack<br><span style="width: 83px; height: 22px;">Pharmacy Simplified</span></a></td>
+                      <td class="spacer" style="width: 20px; height: 57px;"></td>
+                      <td class="racer"style="width: 87.5px; height: 57px;"></td>
+                      </tr>
+           </tbody>
+          </table>
+          <!-- TABLE END -->
+          <!-- LAST -->
+          <div class="last">
+            <a href="#">Conditions of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Interest-Based Ads</a>
+            <span>© 1996-2022, Amazon.com, Inc. or its affiliates</span>
+          </div>
+       </div>         
+     </div>
+
+    
+
+
+
+
+
+
+
+
+     
+
+
+  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

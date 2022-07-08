@@ -1,0 +1,510 @@
+@media only screen and  (max-width:480px){
+    /* FOR PHONE */
+    body{
+        font-size: 7px !important;
+        box-sizing: border-box;
+        min-height: 100%;
+        margin: 0px;
+        background-color: red !important;
+        padding: 0px;
+        font-family: "Amazon Ember", Arial, sans-serif !important;
+    }
+     .pool{
+        width: 249% !important;
+         height: 60px !important;
+       display: block !important;
+       /* align-items: center !important;  */
+    }
+     .navleft{
+        width: 25%!important;
+        align-items: center !important;
+    }
+    .nav-center{
+          width: 45% !important;
+          display: flex !important;
+          /* margin-bottom: 4px !important;
+          margin-left: 5px !important; */
+    }
+    .navright{
+       width: 30% !important;
+       display: flex !important;
+    }
+   .mage span{
+        display: none !important;
+    }
+    .user{
+       font: size 11.5px !important;
+       font-weight: lighter !important;
+   }
+   .user2{
+       font-size: 10px !important;
+       font-weight: bolder !important;
+   }
+   .ret{  
+       font: size 11.5px !important;
+       font-weight: lighter !important;
+   }
+   .ret1{
+       font-size:11.5px !important;
+       font-weight: bolder !important;
+   }
+     .secnav{
+    width: 249% !important;
+    height: 50px !important;
+   display: flex !important; border: 1px solid  red;
+   /* justify-content: center !important; */
+    font-size: 14px !important;
+    padding: 0px !important;
+    align-items: center !important;
+}
+.secnav ul li{
+    color: rgb(204, 204, 204) !important;
+    font-size: 15px !important;
+    } 
+     .bar .fa-bars{
+        font-size: 20px;
+     }
+      .bar span{
+         height: 12px !important;
+         font-size: 20px !important; 
+     }
+.dg{
+    display: none !important;  
+}
+ .gin{
+    width: 230% !important;
+    margin-bottom: 15px !important;
+} 
+.cou{
+    width: 100% !important;
+    
+}    
+.cou h1{
+    font-size: 24.8px !important;
+}   
+.comb {
+    width: 100% !important;
+    height: 110px !important;
+    border: none;
+    border-right: 2px solid rgb(242, 242, 242) !important;
+    border-bottom: 2px solid rgb(242, 242, 242) !important;
+}
+.comb h2{
+    width: 85% !important; 
+    height: 35px !important;
+    border-radius: 5px !important;
+    font-size: 13px !important;
+}
+.comb .one{
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 23px !important;
+    border-radius: 4px 0px 0px 4px;
+    font-weight: 500 !important;
+}
+.comb .sue{
+    width: 85% !important;
+}
+.sue1{
+    width: 100% !important;
+    height: 22px !important;
+    height: 50px !important;
+}
+.fa-caret-right{
+    font-size: 29px !important;  
+}
+.elect{
+    width: 255px;
+    height: 24px;
+    font-size: 14px;
+    margin-left: 2px;
+}
+.mady{
+    width: 380px;
+    height: 24px;
+    position: relative;
+}
+.mady .candy{
+    position: absolute;
+    width: 361px !important;
+    margin-top: 1px;
+    height: 20px !important;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+}
+  /* FOOTER */
+  .footer{
+    width: 249% !important;
+    height: 1093px !important;
+    background-color: rgb(35, 47, 62) !important;
+}
+ .stan{
+    width: 100% !important;
+    height: 42px !important;
+    border-top: 10px !important;
+    font-size:15px;
+    background-color: rgb(73, 85, 100) !important;
+} 
+         /* COT BEGIN */
+ .cot{
+    width: 100% !important;
+    height: 400px;
+}
+.zee{
+    width: 20% !important;
+    height: 320px !important; 
+    font-size:16px !important;
+}
+.zee a{
+    font-size:12.5px !important;
+}
+.empty{
+    width: 9% !important;
+    height: 300px !important;
+}
+               /* COT END */
+.rut{
+    width: 100% !important;
+    border: none !important;
+    border-top:2px solid rgb(232, 232, 232) !important; 
+    /* opacity: 0.4 !important; */
+}
+           /* ZON */
+ .zon{
+    margin-top: 10px !important;
+    width: 72% !important;
+    height: 70px !important;
+}
+.zon span{
+    width: 15% !important;
+    height: 70px !important;
+     margin-right: 88px !important;
+}
+.zon div{
+    background-image: url(./image/logo.png);
+    width: 130px !important;
+    height: 36px !important;
+}
+.zon a{
+    Font-size: 16px;
+    margin: 8px !important;
+    display: flex !important;
+    justify-content: center !important;
+    width: 170px !important;
+    text-align: center !important;
+    height: 35px !important;
+    
+}
+.zon i{
+    margin: 4px !important;border: 2px solid rgb(11, 34, 6) !important; 
+    /* font-size: 20px !important;    */
+ }
+.zon .lag{
+    background-image: url(./image/flag.png);
+    background-size: cover !important;
+    width:23px !important;
+    height: 15px !important;
+    margin: 8px !important;
+} 
+          /* ZON END */
+          /* END */
+ .end{
+    width: 100% !important;
+    height: 538px !important;
+    font-size:13px;
+    background-color: rgb(19, 26, 34) !important; 
+    
+}    
+                       /*  TABLLE */
+ .end table{
+    width: 89% !important;
+    height: 460px !important;
+     margin: 20px !important;
+    background-color: rgb(19, 26, 34) !important; 
+}  
+                           /* first row  */
+  .racer{
+     display: block !important;
+ } 
+ .racer a{
+     font-size:11px !important;
+ }   
+ .racer span{  
+    width: 110px;
+    height: 35px;
+    font-size:9px !important;
+    color: rgb(153, 153, 153) !important;
+ }                     
+ .sec{
+    width: 75px !important;
+    height: 15px !important;
+ } 
+            /* TABLE END */
+.last{
+    width: 100% !important;
+    height: 75px !important;
+}            
+.last a{
+   margin-right: 5px !important;
+   font-size:15px !important;
+} 
+   }
+   @media screen  and (max-width:768px) and (min-width:481px){
+    body{
+        font-size: 7px !important;
+        width: 100% !important;
+        height: 100vh !important;
+        margin: 0px !important;
+    
+        padding: 0px !important;
+        font-family: "Amazon Ember", Arial, sans-serif !important;
+    }
+    .pool{
+        width: 150% !important;
+        height: 69px !important;
+       display: block !important; 
+       margin: 0px !important;
+        padding: 0px !important;
+    }
+    .navleft{
+        width: 25% !important;
+        display: flex !important;
+        align-items: center !important;
+       
+    }
+    .loc{
+        font-size:12px !important;
+    }
+    .nav-center{
+          width: 40% !important;
+          display: flex !important; 
+    }
+    .navright{
+       width: 33% !important;
+       display: flex !important;
+
+    }
+    .mage span{
+        display: none !important;
+    }
+    .user{
+       font-size: 4px !important;
+
+   }
+   .user2{
+       font-size: 7px !important;
+   }
+   .ret{  
+       font-size:5px !important;
+   }
+   .ret1{
+       font-size:7px !important;
+   }
+    .secnav{
+    width: 150% !important;
+    height: 45px !important;
+   display: flex !important; 
+    font-size: 17px !important;
+    padding: 0px !important;
+    align-items: center !important;
+}
+.secnav ul li{
+    color: rgb(204, 204, 204) !important;
+    font-size: 13px !important;
+    } 
+     .bar .fa-bars{
+        font-size: 16px;
+     }
+      .bar span{
+         height: 12px !important;
+         font-size: 16px !important; 
+     }
+.dg{
+    display: none !important;  
+}
+.gin{
+    width: 150% !important;
+    margin-bottom: 15px !important;
+  
+} 
+.cou{
+    width: 100% !important;
+    
+}    
+.cou h1{
+    font-size: 24.8px !important;
+}   
+.comb {
+    width: 89% !important;
+    height: 100px !important;
+    border: none;
+    border-right: 2px solid rgb(242, 242, 242) !important;
+    border-bottom: 2px solid rgb(242, 242, 242) !important;
+}
+.comb h2{
+    width: 100% !important; 
+    height: 33px !important;
+    border-radius: 5px !important;
+    font-size: 13px !important;
+}
+.comb .one{
+    width: 32px !important;
+    height: 30px !important;
+    font-size: 23px !important;
+    border-radius: 4px 0px 0px 4px;
+    font-weight: 500 !important;
+}
+.comb .sue{
+    width: 80% !important;
+    height: 50px !important;
+}
+.sue1{
+    width: 100% !important;
+    height: 22px !important;
+    
+}
+.fa-caret-right{
+    font-size: 29px !important;  
+}
+.elect{
+    width: 255px;
+    height: 20px;
+    font-size: 12px;
+    margin-left: 2px;
+}
+.mady{
+    width: 380px;
+    height: 20px;
+    position: relative;
+}
+.mady .candy{
+    position: absolute;
+    width: 300px !important;
+    margin-top: 1px;
+    height: 17px !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+}
+   /* FOOTER */
+   .footer{
+    width: 150% !important;
+    height: 970px!important;
+    margin-top: 10px !important;
+}
+.stan{
+    width: 100%;
+    height: 42px !important;
+    font-size:12px;
+
+}
+         /* COT BEGIN */
+.cot{
+    width: 100%;
+    height: 300px;
+}
+ .zee{
+    width: 18% !important;
+    height: 230px !important; 
+    font-size:9px !important;
+}
+.zee ul{
+    padding-top: 2px !important;
+    padding-left: 0px !important; 
+}
+.zee li{
+    margin-bottom: 2px !important;
+}
+.zee a{
+    font-size:7.5px !important;
+}
+.empty{
+    width: 6% !important;
+    height: 300px !important;  
+}
+               /* COT END */
+           /* ZON */
+ .zon{
+    margin-top: 10px !important;
+    width: 84% !important;
+    margin-left: 60px !important;
+    height: 65px !important;
+}
+.zon span{
+    width: 16% !important;
+    height: 65px !important;
+     margin-right: 80px !important;
+}
+.zon div{
+    background-image: url(./image/logo.png);
+    width: 125px !important;
+    height: 34px !important;
+}
+.zon a{
+    Font-size: 10px;
+    margin: 8px !important;
+    width: 140px !important;
+    height: 25px !important;
+    
+}
+.zon i{
+    margin: 15px !important;
+    font-size: 15px !important;   
+ }
+.zon .lag{
+    background-image: url(./image/flag.png);
+    background-size: cover !important; 
+    width:23px !important;
+    height: 15px !important;
+    margin: 8px !important;
+} 
+          /* ZON END */
+          /* END */
+ .end{
+    width: 100% !important;
+    height: 535px !important;
+    font-size:15px;
+    background-color: rgb(19, 26, 34) !important; 
+    
+}   
+                       /*  TABLLE */
+ .end table{
+    width: 90% !important;
+    height: 460px !important;
+     margin-left: 3px !important;
+    background-color: rgb(19, 26, 34) !important; 
+}  
+                           /* first row  */
+  .racer{
+     display: block !important;
+ } 
+ .racer a{
+     font-size:10.7px !important;
+     width: 130px !important;
+     margin-left: 10px !important;
+     /* border: 1px solid red; */
+ }   
+ .racer span{  
+    width: 75px !important;
+    height: 30px !important;
+    font-size:7px !important;
+    color: rgb(153, 153, 153) !important;
+ }                 
+ .sec{
+    width: 50px !important; 
+    height: 15px !important;
+ } 
+            /* TABLE END */
+ .last{
+    width: 97% !important;
+    height: 75px !important;
+}            
+.last a{
+   margin-right: 5px !important;
+   font-size:10px !important;
+}
+.last span{
+   font-size:10px !important;
+} 
+       }
+       
+  
